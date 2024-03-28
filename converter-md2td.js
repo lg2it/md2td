@@ -71,7 +71,7 @@ function convertMarkdownToTiddlyWiki(markdown) {
       line = '<<<\n' + line + '\n<<<';
     }
 
-    // 替换水平线
+    // 替换分隔线
     if (line.match(/^[-*_]{3,}\s*$/)) {
       line = '---';
     }

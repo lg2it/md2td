@@ -3,11 +3,21 @@
 <head>
   <title>Markdown to TiddlyWiki Converter</title>
   <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
-  <script src="converter.js"></script>
+  <script src="converter-md2td.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
+  <nav>
+    <a href="md2td.html">Markdown to TiddlyWiki</a>
+    <a href="td2md.html">TiddlyWiki to Markdown</a>
+    <a href="https://github.com/lg2it/md2td" target="_blank" class="github-link">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://x.com/lgtwet" target="_blank" class="twitter-link">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+  </nav>
   <div class="wrapper">
     <h1>Markdown to TiddlyWiki Converter</h1>
     <div class="container">
@@ -15,11 +25,5 @@
       <textarea id="tiddlywiki-output" placeholder="TiddlyWiki formatted text will appear here..." readonly></textarea>
     </div>
   </div>
-  <a href="https://github.com/lg2it/md2td" target="_blank" class="github-link">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://x.com/lgtwet" target="_blank" class="twitter-link">
-    <i class="fab fa-twitter"></i>
-  </a>
 </body>
 </html>
