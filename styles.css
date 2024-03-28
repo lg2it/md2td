@@ -1,0 +1,92 @@
+/* Basic reset for padding and margin */
+body, h1, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a font-family for better text readability */
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 20px; /* Add padding to the top of the page */
+}
+
+/* Style the header */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Wrapper for both title and text areas */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This will align the title */
+  text-align: center; /* This will align the text of the title */
+  margin-top: 20px;
+}
+
+/* Container for the text areas */
+.container {
+  display: flex;
+  justify-content: space-around; /* This will place the text areas on either side of the vertical center line */
+  width: 100%; /* This will ensure the container spans the full width of the viewport */
+}
+
+/* Individual text areas */
+textarea {
+  width: 40%; /* Adjust the width as necessary to maintain the desired size and spacing */
+  margin: 10px; /* Adjust the margin as necessary for spacing */
+  /* Other styles remain unchanged */
+}
+
+/* Flexbox container for the textareas */
+.container {
+  display: flex;
+  justify-content: space-between; /* This will space out the textareas evenly */
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style the textareas */
+textarea {
+  width: 48%; /* Each textarea will take up roughly half the container width minus the margin */
+  padding: 10px;
+  margin: 10px 1%; /* Add some margin to space out the textareas */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Placeholder text style */
+::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
+/* You can also target placeholders specifically within textareas if needed */
+textarea::placeholder {
+  font-style: italic;
+}
+
+.github-link, .twitter-link {
+  position: fixed;
+  top: 28px;
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+}
+
+.github-link {
+  right: 60px;
+}
+
+.twitter-link {
+  right: 100px;
+}
+
+.github-link:hover, .twitter-link:hover {
+  color: #000;
+}
