@@ -31,6 +31,9 @@ And also code block, bullet list and number list.
 ## Roadmap
 
 [X] Support for commonly used markdown syntax
+
 [] Expansion with more comprehensive markdown syntax support
+
 [] Bidirectional conversion capability between markdown and TiddlyWiki
+
 [] Functionality to import markdown files
