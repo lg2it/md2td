@@ -6,25 +6,25 @@ With this in mind, I crafted a nifty converter that boasts real-time preview cap
 
 ## Available syntax conversions
 
-`#` → `!`
+`#` ↔︎ `!`
 
-`##` → `!!`
+`##` ↔︎ `!!`
 
 ……
 
-`######` → `!!!!!!`
+`######` ↔︎ `!!!!!!`
 
-`[text](url)` → `[[text|url]]`
+`[text](url)` ↔︎ `[[text|url]]`
 
-`![](url)` → `[img[url]]`
+`![](url)` ↔︎ `[img[url]]`
 
-`**Blod**` → `''Blod''`
+`**Blod**` ↔︎`''Blod''`
 
-`*Italic*` → `//Italic//`
+`*Italic*` ↔︎ `//Italic//`
 
-`---` → `---`
+`---` ↔︎ `---`
 
-``inline code`` → ``inline code``
+``inline code`` ↔︎ ``inline code``
 
 And also code block, bullet list and number list.
 

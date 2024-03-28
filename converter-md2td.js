@@ -88,5 +88,5 @@ function convertMarkdownToTiddlyWiki(markdown) {
   return tiddlyWikiOutput.trim() + '\n'; // 确保输出以换行符结束
 }
   
-convertToTiddlyWiki();
+// convertToTiddlyWiki();
 });
