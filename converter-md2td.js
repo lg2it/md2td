@@ -54,7 +54,7 @@ function convertMarkdownToTiddlyWiki(markdown) {
                .replace(/\*(.*?)\*/g, '//$1//');
 
     // 替换无序列表
-    line = line.replace(/^(\s*)\*\s+/gm, (match, p1) => {
+    line = line.replace(/^(\s*)(?:\*|-)\s+/gm, (match, p1) => {
       const level = p1.length / 2 + 1;
       return '*'.repeat(level) + ' ';
     });
